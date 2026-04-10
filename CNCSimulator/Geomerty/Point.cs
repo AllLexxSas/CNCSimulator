@@ -6,17 +6,12 @@ using System.Threading.Tasks;
 
 namespace CNCSimulator.Geomerty
 {
-    class BaseGeometry
+    class Point
     {
-        internal Point point;
+        public double x, y, z;
+        public Point(double _x, double _y)
+        {
+            x = _x; y = _y; z = 0;
+        }
     }
-
-
-
-
-
-
-    
-    
-
 }
